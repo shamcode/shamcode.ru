@@ -47,9 +47,9 @@ SITESUBTITLE = 'Developer'
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
 
-MENUITEMS = (('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),)
+MENUITEMS = (('Архив', '/archives.html'),
+             ('Категории', '/categories.html'),
+             ('Тэги', '/tags.html'),)
 
 CC_LICENSE = {
     'name': 'Creative Commons Attribution-ShareAlike',
