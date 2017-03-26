@@ -42,9 +42,22 @@ JINJA_ENVIRONMENT = {
 }
 
 SITETITLE = u'shamcode'
-SITELOGO = SITEURL + 'images/sham.rpg'
+SITELOGO = SITEURL + 'images/sham.jpg'
+SITESUBTITLE = 'Developer'
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
+
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+             ('Tags', '/tags.html'),)
+
+CC_LICENSE = {
+    'name': 'Creative Commons Attribution-ShareAlike',
+    'version': '4.0',
+    'slug': 'by-sa'
+}
+
+MAIN_MENU = True
 
 DEFAULT_LANG = u'ru'
 OG_LOCALE = 'ru_RU'
