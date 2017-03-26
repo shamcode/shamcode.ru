@@ -10,8 +10,6 @@ PATH = 'content'
 
 TIMEZONE = 'Asia/Krasnoyarsk'
 
-DEFAULT_LANG = u'ru'
-
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -20,16 +18,36 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('shamcode', 'https://github.com/shamcode'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# https://github.com/getpelican/pelican-plugins
+PLUGIN_PATHS = ['pelican-plugins']
+
+# https://github.com/alexandrevicenzi/Flex
+THEME = "Flex"
+
+# Enable i18n plugin.
+PLUGINS = ['i18n_subsites']
+# Enable Jinja2 i18n extension used to parse translations.
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n']
+}
+
+SITETITLE = u'shamcode'
+SITELOGO = SITEURL + 'images/sham.rpg'
+BROWSER_COLOR = '#333'
+ROBOTS = 'index, follow'
+
+DEFAULT_LANG = u'ru'
+OG_LOCALE = 'ru_RU'
+LOCALE = 'ru_RU.UTF-8'
+
+I18N_TEMPLATES_LANG = 'en'
