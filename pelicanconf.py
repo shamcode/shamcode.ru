@@ -21,7 +21,7 @@ AUTHOR_FEED_RSS = None
 LINKS = ()
 
 # Social widget
-SOCIAL = (('shamcode', 'https://github.com/shamcode'),)
+SOCIAL = (('github', 'https://github.com/shamcode'),)
 
 DEFAULT_PAGINATION = 10
 
