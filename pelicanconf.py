@@ -4,8 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'shamcode'
 SITENAME = u'shamcode'
-SITEURL = u''
+SITEURL = u'http://shamcode.ru'
 
+YANDEX_METRIKA = u'24275077'
 PATH = 'content'
 
 TIMEZONE = 'Asia/Krasnoyarsk'
@@ -32,7 +33,7 @@ DEFAULT_PAGINATION = 10
 PLUGIN_PATHS = ['pelican-plugins']
 
 # https://github.com/alexandrevicenzi/Flex
-THEME = "Flex"
+THEME = "themes/Flex"
 
 # Enable i18n plugin.
 PLUGINS = ['i18n_subsites']
@@ -42,14 +43,14 @@ JINJA_ENVIRONMENT = {
 }
 
 SITETITLE = u'shamcode'
-SITELOGO = SITEURL + 'images/sham.jpg'
+SITELOGO = SITEURL + '/images/sham.jpg'
 SITESUBTITLE = 'Developer'
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
 
-MENUITEMS = (('Архив', '/archives.html'),
-             ('Категории', '/categories.html'),
-             ('Тэги', '/tags.html'),)
+MENUITEMS = ((u'Архив', '/archives.html'),
+             (u'Категории', '/categories.html'),
+             (u'Тэги', '/tags.html'),)
 
 CC_LICENSE = {
     'name': 'Creative Commons Attribution-ShareAlike',
@@ -65,4 +66,3 @@ LOCALE = 'ru_RU.UTF-8'
 
 I18N_TEMPLATES_LANG = 'en'
 
-from private_conf import *
