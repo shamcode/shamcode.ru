@@ -3,4 +3,5 @@ output/
 .idea/
 pelican-themes/
 pelican-plugins/
+private_conf.py
 *pyc

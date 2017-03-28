@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'shamcode'
 SITENAME = u'shamcode'
-SITEURL = ''
+SITEURL = u''
 
 PATH = 'content'
 
@@ -64,3 +64,5 @@ OG_LOCALE = 'ru_RU'
 LOCALE = 'ru_RU.UTF-8'
 
 I18N_TEMPLATES_LANG = 'en'
+
+from private_conf import *
