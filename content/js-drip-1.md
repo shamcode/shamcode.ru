@@ -1,6 +1,6 @@
 Title: JS Drip #1 Параметры по умолчанию в Javascript
 Date: 2014-12-22 22:56
-Tags: links, js
+Tags: links, js, jsdrip
 Slug: js-drip1
 Lang: ru
 Category: Translations
