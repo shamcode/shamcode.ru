@@ -7,7 +7,7 @@ Category: Translations
 Authors: shamcode
 Summary: Вольный перевод JS Drip#2 Arbitrary Parameters with the arguments Object
 
-Вольный перевод [Js Drip #1 Default Parameters in JavaScript](http://us6.campaign-archive1.com/?u=2cc20705b76fa66ab84a6634f&id=ce9ce7921e)
+Вольный перевод [JS Drip#2 Arbitrary Parameters with the arguments Object](http://us6.campaign-archive2.com/?u=2cc20705b76fa66ab84a6634f&id=c8f1074cb2)
 
 В прошлый раз мы тебе рассказали про работу с аргументами по умолчанию. Это дает определенную гибкость при работе с
 аргументами, но что делать, если тебе нужно в функции обрабатывать столько аргументов, сколько в неё было передано?
