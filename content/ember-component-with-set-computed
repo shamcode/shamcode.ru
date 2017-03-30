@@ -1,1 +1,10 @@
+Title: Использование computed'ов c сеттерами внутри Ember.Component
+Date: 2017-03-31 01:36
+Tags: js, ember
+Slug: ember-component-with-set-computed
+Lang: ru
+Category: Development
+Authors: shamcode
+Summary: Недавно натолкнулся на не совсем очевидно поведение компонентов в Ember
+
 
