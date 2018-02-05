@@ -1,5 +1,5 @@
 Title: Слайды по Typesript
-Date: 2017-02-05 12:26
+Date: 2018-02-05 12:26
 Tags: links
 Slug: typescipt-slides
 Lang: ru
