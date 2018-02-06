@@ -1,4 +1,4 @@
-Title: Слайды по Typesript
+Title: Слайды по работе с ошибками в JS
 Date: 2018-02-06 12:13
 Tags: links
 Slug: js-errors-slides
